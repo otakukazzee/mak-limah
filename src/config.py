@@ -1,5 +1,5 @@
-# config.py
-
+# Tolong jangan di tambah atau kurangi file config ini karna dapat menyebabkan kesalahan configurasi saat scanning sedang berlangsung.
+import re
 # ==============================================================================
 # SENSITIVE PATHS (Reconnaissance)
 # Lebih lengkap untuk menemukan file konfigurasi, backup, dan direktori admin.
@@ -75,7 +75,7 @@ SENSITIVE_ERROR_PATTERNS = [
     "debug mode", "show variables", "select * from"
 ]
 
-# --- Konfigurasi Lain (Diimpor oleh mak_limah_pentest.py) ---
+# --- Konfigurasi Lain (Diimpor oleh mak-limah.py) ---
 RECOMMENDATIONS = {
     "strict-transport-security": "Set HSTS (e.g. max-age=63072000; includeSubDomains; preload).",
     "content-security-policy": "Add Content-Security-Policy (CSP) to mitigate XSS.",
