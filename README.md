@@ -149,7 +149,7 @@ Lisensi: Non-Open Source — Modifikasi dan redistribusi dilarang tanpa izin ter
 ---
 
 ## 📞 Dukungan
-Hubungi developer via email atau media sosial resmi untuk permintaan enterprise atau integrasi pipeline.
+Hubungi developer via email (sardidevs.me@gmail.com) atau media sosial resmi untuk permintaan enterprise atau integrasi pipeline.
 
 ---
 
