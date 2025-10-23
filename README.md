@@ -62,7 +62,7 @@ pip install pycryptodome rich requests
 
 ### 1. Jalankan Tools
 ```bash
-python mak-limah.py
+python run.py
 ```
 
 ### 2. Masukkan Target URL
