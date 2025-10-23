@@ -50,7 +50,7 @@
 - **Python 3.8+**
 - Modul:
 ```bash
-pip install rich requests
+pip install pycryptodome rich requests
 ```
 
 ---
