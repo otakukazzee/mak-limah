@@ -4,8 +4,7 @@
 ---
 
 ## 📘 Deskripsi Singkat
-**MAK LIMAH BIADAB** adalah tools pentesting otomatis berbasis Python dengan integrasi **Rich UI**, dirancang untuk melakukan audit keamanan terhadap aplikasi web secara mendalam namun tetap stabil di berbagai ukuran terminal.  
-Versi **6.1.2 (Stable - UI Fix 3)** memperkenalkan **export CI Workflow** dan **SSRF Passive Scan** untuk mendukung pipeline keamanan modern.
+**MAK LIMAH BIADAB - PENTESTING** is a web security scanner designed to help developers and security testers identify vulnerabilities in web applications. This tool provides various features for **scanning** and **testing web security**, **including CORS misconfiguration**, **error page exposure**, **rate limiting**, and **others**. 
 
 ---
 
@@ -40,7 +39,6 @@ Versi **6.1.2 (Stable - UI Fix 3)** memperkenalkan **export CI Workflow** dan **
   - `mak_limah_ci_summary_<timestamp>.yaml`
 
 ### 🧠 Intelligent Reporting
-- **Ringkasan hasil dalam Rich Table** (berwarna dan dinamis)
 - **HTML Report Generator** dengan tampilan modern
 - **Critical Findings Extractor** otomatis (High/Critical severity)
 
@@ -61,7 +59,7 @@ pip install rich requests
 
 ### 1. Jalankan Tools
 ```bash
-python3 mak_limah.py
+python mak-limah.py
 ```
 
 ### 2. Masukkan Target URL
